@@ -1,6 +1,6 @@
 import { ArrowDown, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
-import profileImg from "@/assets/profile-illustration.png";
+import profileImg from "../assets/profile-illustration.png";
 
 const HeroSection = () => (
   <section
@@ -79,3 +79,4 @@ const HeroSection = () => (
 );
 
 export default HeroSection;
+

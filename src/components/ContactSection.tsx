@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import { Send, Mail, Linkedin, Github, Phone  } from "lucide-react";
 import AnimatedSection from "./AnimatedSection";
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from "../hooks/use-toast";
 
 const ContactSection = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -109,3 +109,4 @@ const ContactSection = () => {
 };
 
 export default ContactSection;
+
